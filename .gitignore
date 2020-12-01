@@ -6,7 +6,10 @@ Sahasrara_PCB/__Previews/*
 
 # PSOC Creator ----------------------------------------
 
-# Ignore folders generated after project build
+# ignore PSoC Creator workspaces
+*.cywrk
+
+# folders generated after build (any PSoC series)
 
 Sahasrara*/Generated_Source/*
 Sahasrara*/Cortex*/*
@@ -23,3 +26,5 @@ Sahasrara*/Export/*
 # Ignoring OneDrive version of project file
 
 *cyprj.*
+*cywrk.*
+ 
